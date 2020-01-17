@@ -1,0 +1,28 @@
+{
+    "name": "rafael/login",
+    "description": "Projeto com login. Terminando ele vou iniciar um projeto completo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rafael-ogsantos",
+            "email": "43243473+rafael-ogsantos@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-json": "*",
+        "coffeecode/router": "1.0.*",
+        "coffeecode/datalayer": "^1.1"
+    },
+    "autoload": {
+        "files": [
+            "app/Config.php",
+             "helpers/Helpers.php"
+        ],
+
+        "psr-4": {
+            "App\\": "app/",
+            "Traits\\": "traits/"
+        }
+    }
+}
